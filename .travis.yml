@@ -23,3 +23,7 @@ after_success:
   - docker push sontm17/udagram-api-user
   - docker push sontm17/udagram-frontend
   - docker push sontm17/reverseproxy
+
+cache:
+  directories:
+    - node_modules
